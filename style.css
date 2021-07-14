@@ -18,14 +18,32 @@ header {
 }
 
 .banner-heading {
+    padding: 10px;
+}
+
+.banner-heading h1 {
+    width: 385;
+    height: 190px;
     color: white;
     margin-right: 100px;
+    font-size: 50px;
+}
+
+.link-button {
+    width: 148px;
+    height: 24px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #E02C6D;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .banner-image {
     width: 556px;
     height: 438px;
-    margin-top: 100px;
+    margin-top: 150px;
     margin-bottom: 50px;
 }
 
