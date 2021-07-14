@@ -94,7 +94,8 @@ header:hover .banner {
     grid-row-gap: 50px;
 }
 
-.player {
+.player,
+news {
     box-shadow: 2px 2px 40px #f2f2f2;
     width: 330px;
     height: 100%;
@@ -140,6 +141,13 @@ header:hover .banner {
 }
 
 /* highlight section ends */
+/* top news start */
+.top-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* top news ends */
 /* main section ends */
 /* footer starts */
 footer {
