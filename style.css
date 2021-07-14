@@ -83,4 +83,33 @@ header {
 }
 
 /* upper section ends */
+/* lower section starts */
+.highlights {
+    margin-top: 165px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.highlights-title {}
+
+.highlights-title h1 {
+    font-size: 50px;
+}
+
+.highlights-title p {
+    font-size: 1.5em;
+}
+
+.highlight-image {
+    width: 576px;
+    height: 427px;
+}
+
+.highlight-image img {
+    width: 100%;
+    height: 100%;
+}
+
 /* main section ends */
