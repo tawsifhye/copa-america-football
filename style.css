@@ -63,10 +63,10 @@ header {
 /* main section starts */
 
 .player {
-    border: 1px solid;
-    box-shadow: 10px 10px 100px;
+    box-shadow: 2px 2px 40px #f2f2f2;
     width: 330px;
     height: 100%;
+    padding: 15px;
 }
 
 .players {
@@ -75,7 +75,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 50px;
-    grid-column-gap: 0;
+    grid-column-gap: 0px;
 }
 
 .player-image img {
