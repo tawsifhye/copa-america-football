@@ -13,11 +13,11 @@ body {
 
 
 /* header style starts */
-header {
-    background-color: royalblue;
-}
+header {}
+
 
 .banner {
+    background-color: royalblue;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,8 +36,7 @@ header {
 }
 
 .link-button {
-    width: 148px;
-    height: 24px;
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-weight: bold;
@@ -56,6 +55,19 @@ header {
 .banner-image img {
     width: 100%;
     height: 100%;
+}
+
+.banner:hover .banner-image {
+    transform: scale(0.5) rotate(360deg);
+    transition: transform 2s ease-in-out;
+}
+
+header:hover .banner {
+    background-image: url("images/argentina.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
 }
 
 /* header style ends */
