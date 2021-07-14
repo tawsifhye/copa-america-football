@@ -12,9 +12,8 @@ body {
 }
 
 
-/* header style starts */
-header {}
 
+/* header style starts */
 
 .banner {
     background-color: royalblue;
@@ -57,7 +56,7 @@ header {}
     height: 100%;
 }
 
-.transition-button:hover {
+.link-button:hover {
     transform: scale(1.5) rotate(360deg);
     transition: transform 2s ease-in-out;
 }
@@ -75,11 +74,19 @@ header:hover .banner {
 
 }
 
+.score {
+    box-shadow: 2px 2px 40px #f2f2f2;
+}
+
+.score>img {
+    width: 100%;
+}
+
 /* header style ends */
 
 /* main section starts */
 
-/* upper section starts */
+/* player section starts */
 .players {
     margin-left: 50px;
     display: grid;
@@ -99,8 +106,8 @@ header:hover .banner {
     height: 100%;
 }
 
-/* upper section ends */
-/* lower section starts */
+/* player section ends */
+/* highlight section starts */
 .highlights {
     margin-top: 165px;
     display: flex;
@@ -132,7 +139,7 @@ header:hover .banner {
     height: 100%;
 }
 
-/* lower section ens */
+/* highlight section ends */
 /* main section ends */
 /* footer starts */
 footer {
