@@ -94,6 +94,10 @@ body {
     grid-row-gap: 50px;
 }
 
+.player:hover {
+    transform: scale(1.1);
+}
+
 .player {
     box-shadow: 2px 2px 40px #f2f2f2;
     width: 330px;
