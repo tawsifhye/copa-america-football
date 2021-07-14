@@ -129,4 +129,10 @@ footer img {
     width: 100%
 }
 
+.social-icon {
+    font-size: 20px;
+    color: orangered;
+    padding: 10px;
+}
+
 /* footer ends */
