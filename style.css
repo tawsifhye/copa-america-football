@@ -62,6 +62,14 @@ header {
 
 /* main section starts */
 
+/* upper section starts */
+.players {
+    margin-left: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 50px;
+}
+
 .player {
     box-shadow: 2px 2px 40px #f2f2f2;
     width: 330px;
@@ -69,18 +77,10 @@ header {
     padding: 15px;
 }
 
-.players {
-    margin-left: 50px;
-    margin-right: 50px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-row-gap: 50px;
-    grid-column-gap: 0px;
-}
-
 .player-image img {
     width: 100%;
     height: 100%;
 }
 
+/* upper section ends */
 /* main section ends */
