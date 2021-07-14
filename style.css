@@ -110,4 +110,23 @@ header {
     height: 100%;
 }
 
+/* lower section ens */
 /* main section ends */
+/* footer starts */
+footer {
+    width: 450px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 160px;
+    margin-left: 675px;
+    margin-right: 675px;
+
+}
+
+footer img {
+    width: 100%
+}
+
+/* footer ends */
