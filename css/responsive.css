@@ -1,0 +1,50 @@
+@media only screen and (min-width:320px) and (max-width: 688px) {
+    .banner {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .players {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        grid-row-gap: 50px;
+        margin: 0 auto;
+        padding: 0 2%;
+    }
+
+    .player {
+        box-shadow: 2px 2px 40px #f2f2f2;
+        width: 100%;
+        padding: 2%;
+    }
+
+    .highlights {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        padding: 2%;
+        overflow: hidden;
+
+    }
+
+    .highlights-title h1 {
+        font-size: 1.5em;
+    }
+
+    .highlights-title p {
+        font-size: 1em;
+    }
+
+    .top-news {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        margin: 0 auto;
+    }
+}
