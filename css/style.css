@@ -52,14 +52,6 @@ main {
     transition: transform 2s ease-in-out;
 }
 
-.banner:hover {
-    background-image: url(../images/argentina.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
-
 /* header style ends */
 
 /* main section starts */
